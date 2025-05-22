@@ -1,0 +1,202 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.homepage{
+    width:100%;
+    height: 100%; 
+    opacity:1;
+
+}
+.main{
+    padding-top: 50px;
+    background-image: url(../images/bg.png);
+    width:100%;
+    height: 100%; 
+    background-position:center;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    display: flex block;
+    column-gap: 300px;
+    background-color: white;
+    position: fixed;
+}
+
+.menu{
+    height: 60px;
+    float:left;
+    margin-top: 40px;
+     padding:15px; 
+
+}
+ul{
+    float:left;
+    display: flex block;
+   column-gap: 80px;
+    align-items: center;
+}
+ul li a{
+    color:rgba(6, 29, 61, 100%);
+    font-size: 25px;
+    font-weight: bold;
+    transition:0.4s ease-in-out;
+    border: 2px solid transparent;
+    padding:5px;
+    border-radius: 10px;
+    
+}
+li a:hover{
+    border: 2px solid rgba(6, 29, 61, 89%);
+    padding:5px;
+    border-radius: 10px;
+}
+.signin {
+    margin-left: -130px;
+    margin-top: 15px;
+}
+.signin a{
+    color: rgba(6, 29, 61, 89%);
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px;
+    border: 0.2px solid rgba(6, 29, 61,0.2);
+    border-radius: 10px;
+    transition:0.4s ease-in-out;
+}
+.signin a:hover{
+    background-color: rgba(6, 29, 61,0.2) ;
+}
+.h-cont{
+    font-size: 70px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin-left: 80px;
+    margin-top: 130;
+    color:white;
+}
+.quote{
+    color: rgba(255, 255, 255,0.7);
+    font-size: x-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    margin-top: 80px;
+    margin-left:80px ;
+}
+.start{
+    border: 0.2px solid rgba(255, 255, 255,0.2);
+    border-radius: 10px;
+    margin-left: 900px;
+    padding:15px 20px;
+}
+.start a{
+    color:white;
+    font-size: 25px;
+}
+.start:hover{
+    background-color: rgba(255,255,255,0.2);
+} 
+
+/* course page1 */
+
+ .coursepage{
+    height: 1100px;
+    background-image: url(../images/cbg.png);
+    opacity: 0.8;
+    background-position:center;
+    background-size: cover;
+}
+.courses{
+    padding-top: 100px;
+}
+.row1,.row2 {
+    display: flex block;
+    column-gap: 200px;
+    align-items: center;
+    margin-left: 150px;
+}
+.row2{
+    margin-top: 100px;
+}
+.card img{
+    width:250px;
+    height:250px;
+    border: 5px solid rgb(5, 210, 255);
+} 
+
+
+  /* html page */
+
+ .sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+    margin-top: 60px;
+}
+.sidenav a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+.sidenav a:hover{
+    background-color: rgb(76, 11, 141);
+}
+.maincontent h2{
+    padding: 10px;
+    color:#fff;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .htmlpage{
+    height: 1100px;
+    background-image: url(../images/cbg.png);
+    opacity: 0.8;
+    background-position:center;
+    background-size: cover;
+  }
+  .sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+    margin-top: 60px;
+  }
+
+
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .content {
+    margin-left: 250px;
+    padding: 20px;
+  } 
